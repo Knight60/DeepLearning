@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# GeoAI / data (uncomment if you don't want data tracked)
+# data/
+# *.tif
+# *.tiff
+# *.shp
+
+# โฟลเดอร์ data ตัวอย่าง — มีไฟล์ใหญ่ (Topo tif 107MB เกินลิมิต GitHub 100MB) เก็บเฉพาะในเครื่อง
+Example/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE
+.idea/

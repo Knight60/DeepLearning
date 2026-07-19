@@ -1,0 +1,17 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+  "python.terminal.activateEnvironment": true,
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell (.venv)": {
+      "source": "PowerShell",
+      "args": [
+        "-NoExit",
+        "-Command",
+        "& '${workspaceFolder}\\.venv\\Scripts\\Activate.ps1'"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell (.venv)",
+  "jupyter.widgetScriptSources": ["jsdelivr.com", "unpkg.com"]
+}
