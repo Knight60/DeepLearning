@@ -1,0 +1,44 @@
+--- CNN-1D ---
+Confusion matrix (rows=true, cols=pred):
+    1   2   3   4
+1  43   1   7   3
+2   3  61   0   7
+3   6  12  34   5
+4   1  16   7  32
+Overall accuracy: 0.7143
+Kappa: 0.6149
+  class 1: producer's=0.796  consumer's=0.811
+  class 2: producer's=0.859  consumer's=0.678
+  class 3: producer's=0.596  consumer's=0.708
+  class 4: producer's=0.571  consumer's=0.681
+
+Permutation importance, CNN-1D (%):
+  NDVI: 19.70
+  EVI: 12.32
+  B8: 12.32
+  B11: 12.32
+  NDWI: 11.33
+  B12: 10.10
+  B4: 8.37
+  NDBI: 6.16
+  B2: 4.19
+  B3: 3.20
+
+--- CNN-2D ---
+Confusion matrix (rows=true, cols=pred):
+    1   2   3   4
+1  49   1   1   3
+2   1  66   0   4
+3  11   6  34   6
+4   1  16   5  34
+Overall accuracy: 0.7689
+Kappa: 0.6888
+  class 1: producer's=0.907  consumer's=0.790
+  class 2: producer's=0.930  consumer's=0.742
+  class 3: producer's=0.596  consumer's=0.850
+  class 4: producer's=0.607  consumer's=0.723
+
+=== Summary ===
+    model  overall_accuracy     kappa
+0  CNN-1D          0.714286  0.614887
+1  CNN-2D          0.768908  0.688815

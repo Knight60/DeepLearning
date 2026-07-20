@@ -11,6 +11,7 @@ dist/
 .venv/
 venv/
 env/
+.venv-cnn/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -34,6 +35,21 @@ htmlcov/
 
 # โฟลเดอร์ data ตัวอย่าง — มีไฟล์ใหญ่ (Topo tif 107MB เกินลิมิต GitHub 100MB) เก็บเฉพาะในเครื่อง
 Example/
+
+# Raw/working data and outputs that exceed (or come close to) GitHub's 100MB
+# per-file limit, or are large vendored/build artifacts rather than source.
+# Keep these local only.
+DJI_0348/
+GaussianSplatting/
+GuassianSplatting.ply
+GuassianSplatting.compressed.ply
+supersplat/
+full_composite.tif
+
+# Session scratch files (training logs, intermediate base64 dumps)
+run_log*.txt
+comparison_b64.txt
+classification_comparison_3way_web.jpg
 
 # OS
 Thumbs.db
